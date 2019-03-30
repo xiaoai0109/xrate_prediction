@@ -20,8 +20,11 @@ libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.8.0"
 libraryDependencies += "com.github.pathikrit" %% "better-files" % "3.4.0"
 
 libraryDependencies ++= Seq(
+  "com.google.guava" % "guava" % "14.0",
   "org.apache.hadoop" % "hadoop-common" % "2.6.0",
   "org.apache.hadoop" % "hadoop-mapred" % "0.22.0",
-  "org.apache.hbase" % "hbase-common" % "2.0.0",
-  "org.apache.hbase" % "hbase-client" % "2.0.0"
+  "org.apache.hbase" % "hbase-common" % "1.2.0",
+  "org.apache.hbase" % "hbase-client" % "1.2.0"
 )
+
+dependencyOverrides += "com.google.guava" % "guava" % "14.0"

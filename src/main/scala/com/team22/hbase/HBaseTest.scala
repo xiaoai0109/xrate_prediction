@@ -2,7 +2,8 @@ package com.team22.hbase
 
 import java.io.IOException
 
-import org.apache.hadoop.hbase.{HBaseConfiguration, HColumnDescriptor, HTableDescriptor, TableName}
+import org.apache.hadoop.hbase.{HBaseConfiguration, HColumnDescriptor, HTableDescriptor, NamespaceDescriptor, TableName}
+import org.apache.hadoop.hbase.NamespaceNotFoundException
 import org.apache.hadoop.hbase.client._
 import org.apache.hadoop.hbase.util.Bytes
 
@@ -10,19 +11,32 @@ object HBaseTest {
   val configuration = HBaseConfiguration.create()
   val connection = ConnectionFactory.createConnection(configuration)
   val admin = connection.getAdmin
-  val table = connection.getTable(TableName.valueOf("sk:test1"))
+  var table: Table = _
+//  val table = connection.getTable(TableName.valueOf("sk:test1"))
 
   // Create a table
-  def createTable(tableName: String, columnFamilys: Array[String]) = {
-    val tName = TableName.valueOf(tableName)
+  def createTable(nameSpace: String, tableName: String, columnFamilys: Array[String]) = {
+    val tName = TableName.valueOf(nameSpace + ":" + tableName)
     // Create a table if it doesn't exist
+    try {
+      val nsDescriptor = admin.getNamespaceDescriptor(nameSpace)
+    } catch {
+      // Create a name space if it doesn't exist
+      case e: IOException => {
+        admin.createNamespace(NamespaceDescriptor.create(nameSpace).build())
+        println("Create namespace: " + nameSpace)
+      }
+    }
     if (!admin.tableExists(tName)) {
       val descriptor = new HTableDescriptor(tName)
       for (columnFamily <- columnFamilys) {
         descriptor.addFamily(new HColumnDescriptor(columnFamily))
       }
       admin.createTable(descriptor)
-      println("create successful!!")
+      table = connection.getTable(tName)
+      println("create table " + nameSpace + ":" + tableName + " successful!!")
+    } else {
+      table = connection.getTable(tName)
     }
   }
 
@@ -43,7 +57,20 @@ object HBaseTest {
     val scanner = table.getScanner(scan)
     var result = scanner.next()
     while (result != null) {
-      println(s"rowkey:${Bytes.toString(result.getRow)},列簇:${columnFamily}:${column},value:${Bytes.toString(result.getValue(Bytes.toBytes(columnFamily), Bytes.toBytes(column)))}")
+      println(s"rowkey:${Bytes.toString(result.getRow)},columFamily:${columnFamily}:${column},value:${Bytes.toString(result.getValue(Bytes.toBytes(columnFamily), Bytes.toBytes(column)))}")
+      result = scanner.next()
+    }
+    // Close Scanner
+    scanner.close()
+  }
+  
+  def scanDataFromHTable(columnFamily: String) = {
+    val scan = new Scan()
+    scan.addFamily(columnFamily.getBytes())
+    val scanner = table.getScanner(scan)
+    var result = scanner.next()
+    while (result != null) {
+      println(s"row:${result.toString()}")
       result = scanner.next()
     }
     // Close Scanner

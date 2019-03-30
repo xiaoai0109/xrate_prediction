@@ -1,364 +1,336 @@
 <classpath>
   <classpathentry kind="src" path="src/main/scala"/>
   <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.httpcomponents/fluent-hc/srcs/fluent-hc-4.5.5-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.httpcomponents/fluent-hc/jars/fluent-hc-4.5.5.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.httpcomponents/fluent-hc/srcs/fluent-hc-4.5.5-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.httpcomponents/fluent-hc/jars/fluent-hc-4.5.5.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.httpcomponents/fluent-hc/docs/fluent-hc-4.5.5-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.httpcomponents/fluent-hc/docs/fluent-hc-4.5.5-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5.5-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.5.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5.5-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.5.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.httpcomponents/httpclient/docs/httpclient-4.5.5-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.httpcomponents/httpclient/docs/httpclient-4.5.5-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.9-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.9.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.9-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.9.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.httpcomponents/httpcore/docs/httpcore-4.4.9-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.httpcomponents/httpcore/docs/httpcore-4.4.9-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/commons-logging/commons-logging/docs/commons-logging-1.2-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/commons-logging/commons-logging/docs/commons-logging-1.2-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.10-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.10-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/io.spray/spray-json_2.12/srcs/spray-json_2.12-1.3.4-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/io.spray/spray-json_2.12/bundles/spray-json_2.12-1.3.4.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/io.spray/spray-json_2.12/srcs/spray-json_2.12-1.3.4-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/io.spray/spray-json_2.12/bundles/spray-json_2.12-1.3.4.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/io.spray/spray-json_2.12/docs/spray-json_2.12-1.3.4-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/io.spray/spray-json_2.12/docs/spray-json_2.12-1.3.4-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.2.3-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.2.3-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/ch.qos.logback/logback-classic/docs/logback-classic-1.2.3-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/ch.qos.logback/logback-classic/docs/logback-classic-1.2.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.2.3-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.2.3-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/ch.qos.logback/logback-core/docs/logback-core-1.2.3-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/ch.qos.logback/logback-core/docs/logback-core-1.2.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.25-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.25-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.8.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/bundles/scala-logging_2.12-3.8.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.8.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/bundles/scala-logging_2.12-3.8.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/docs/scala-logging_2.12-3.8.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/docs/scala-logging_2.12-3.8.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.github.pathikrit/better-files_2.12/srcs/better-files_2.12-3.4.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.github.pathikrit/better-files_2.12/jars/better-files_2.12-3.4.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.github.pathikrit/better-files_2.12/srcs/better-files_2.12-3.4.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.github.pathikrit/better-files_2.12/jars/better-files_2.12-3.4.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.github.pathikrit/better-files_2.12/docs/better-files_2.12-3.4.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.github.pathikrit/better-files_2.12/docs/better-files_2.12-3.4.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.hadoop/hadoop-common/srcs/hadoop-common-2.6.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.6.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.google.guava/guava/srcs/guava-14.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.hadoop/hadoop-common/docs/hadoop-common-2.6.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.google.guava/guava/docs/guava-14.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.hadoop/hadoop-annotations/srcs/hadoop-annotations-2.6.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.hadoop/hadoop-annotations/jars/hadoop-annotations-2.6.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.hadoop/hadoop-common/srcs/hadoop-common-2.6.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.6.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.hadoop/hadoop-annotations/docs/hadoop-annotations-2.6.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.hadoop/hadoop-common/docs/hadoop-common-2.6.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.google.guava/guava/srcs/guava-11.0.2-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.google.guava/guava/jars/guava-11.0.2.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.hadoop/hadoop-annotations/srcs/hadoop-annotations-2.6.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.hadoop/hadoop-annotations/jars/hadoop-annotations-2.6.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.google.guava/guava/docs/guava-11.0.2-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.hadoop/hadoop-annotations/docs/hadoop-annotations-2.6.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="lib" path="/Users/mia/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.2-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.2-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/commons-cli/commons-cli/docs/commons-cli-1.2-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/commons-cli/commons-cli/docs/commons-cli-1.2-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.1.1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.1.1.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.1.1-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.1.1.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.commons/commons-math3/docs/commons-math3-3.1.1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.commons/commons-math3/docs/commons-math3-3.1.1-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="lib" path="/Users/mia/.ivy2/cache/xmlenc/xmlenc/jars/xmlenc-0.52.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-httpclient/commons-httpclient/srcs/commons-httpclient-3.1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-net/commons-net/srcs/commons-net-3.1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-net/commons-net/jars/commons-net-3.1.jar">
+  <classpathentry kind="lib" path="/home/cloudera/.ivy2/cache/xmlenc/xmlenc/jars/xmlenc-0.52.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-httpclient/commons-httpclient/srcs/commons-httpclient-3.1-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.4-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/commons-net/commons-net/docs/commons-net-3.1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/commons-io/commons-io/docs/commons-io-2.4-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-net/commons-net/srcs/commons-net-3.1-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-net/commons-net/jars/commons-net-3.1.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/commons-collections/commons-collections/docs/commons-collections-3.2.1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/commons-net/commons-net/docs/commons-net-3.1-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/javax.servlet/servlet-api/srcs/servlet-api-2.5-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.mortbay.jetty/jetty/srcs/jetty-6.1.26-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.mortbay.jetty/jetty/jars/jetty-6.1.26.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/javax.servlet/servlet-api/srcs/servlet-api-2.5-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.mortbay.jetty/jetty/srcs/jetty-6.1.26-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.mortbay.jetty/jetty/jars/jetty-6.1.26.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.mortbay.jetty/jetty/docs/jetty-6.1.26-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.mortbay.jetty/jetty/docs/jetty-6.1.26-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.mortbay.jetty/jetty-util/srcs/jetty-util-6.1.26-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.26.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.mortbay.jetty/jetty-util/srcs/jetty-util-6.1.26-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.26.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.mortbay.jetty/jetty-util/docs/jetty-util-6.1.26-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.mortbay.jetty/jetty-util/docs/jetty-util-6.1.26-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.sun.jersey/jersey-core/srcs/jersey-core-1.9-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.sun.jersey/jersey-core/bundles/jersey-core-1.9.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.sun.jersey/jersey-core/srcs/jersey-core-1.9-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.sun.jersey/jersey-core/bundles/jersey-core-1.9.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.sun.jersey/jersey-core/docs/jersey-core-1.9-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.sun.jersey/jersey-core/docs/jersey-core-1.9-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.sun.jersey/jersey-json/srcs/jersey-json-1.9-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.sun.jersey/jersey-json/bundles/jersey-json-1.9.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.sun.jersey/jersey-json/srcs/jersey-json-1.9-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.sun.jersey/jersey-json/bundles/jersey-json-1.9.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.sun.jersey/jersey-json/docs/jersey-json-1.9-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.sun.jersey/jersey-json/docs/jersey-json-1.9-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.codehaus.jettison/jettison/srcs/jettison-1.1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.codehaus.jettison/jettison/bundles/jettison-1.1.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.codehaus.jettison/jettison/srcs/jettison-1.1-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.codehaus.jettison/jettison/bundles/jettison-1.1.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.codehaus.jettison/jettison/docs/jettison-1.1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.codehaus.jettison/jettison/docs/jettison-1.1-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.sun.xml.bind/jaxb-impl/srcs/jaxb-impl-2.2.3-1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.sun.xml.bind/jaxb-impl/jars/jaxb-impl-2.2.3-1.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/javax.xml.bind/jaxb-api/srcs/jaxb-api-2.2.2-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/javax.xml.bind/jaxb-api/jars/jaxb-api-2.2.2.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.sun.xml.bind/jaxb-impl/srcs/jaxb-impl-2.2.3-1-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.sun.xml.bind/jaxb-impl/jars/jaxb-impl-2.2.3-1.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/javax.xml.bind/jaxb-api/srcs/jaxb-api-2.2.2-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/javax.xml.bind/jaxb-api/jars/jaxb-api-2.2.2.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/javax.xml.bind/jaxb-api/docs/jaxb-api-2.2.2-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/javax.xml.bind/jaxb-api/docs/jaxb-api-2.2.2-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/javax.xml.stream/stax-api/srcs/stax-api-1.0-2-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/javax.xml.stream/stax-api/jars/stax-api-1.0-2.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/javax.activation/activation/srcs/activation-1.1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.13-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.13.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/javax.xml.stream/stax-api/srcs/stax-api-1.0-2-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/javax.xml.stream/stax-api/jars/stax-api-1.0-2.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/javax.activation/activation/srcs/activation-1.1-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.13-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.13.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/docs/jackson-core-asl-1.9.13-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/docs/jackson-core-asl-1.9.13-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.13-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.13-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/docs/jackson-mapper-asl-1.9.13-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/docs/jackson-mapper-asl-1.9.13-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/srcs/jackson-jaxrs-1.8.3-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/jars/jackson-jaxrs-1.8.3.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.codehaus.jackson/jackson-xc/srcs/jackson-xc-1.8.3-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.codehaus.jackson/jackson-xc/jars/jackson-xc-1.8.3.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.sun.jersey/jersey-server/srcs/jersey-server-1.9-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.sun.jersey/jersey-server/bundles/jersey-server-1.9.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/srcs/jackson-jaxrs-1.8.3-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/jars/jackson-jaxrs-1.8.3.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.codehaus.jackson/jackson-xc/srcs/jackson-xc-1.8.3-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.codehaus.jackson/jackson-xc/jars/jackson-xc-1.8.3.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.sun.jersey/jersey-server/srcs/jersey-server-1.9-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.sun.jersey/jersey-server/bundles/jersey-server-1.9.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.sun.jersey/jersey-server/docs/jersey-server-1.9-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.sun.jersey/jersey-server/docs/jersey-server-1.9-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/asm/asm/srcs/asm-3.1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/asm/asm/jars/asm-3.1.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/log4j/log4j/srcs/log4j-1.2.17-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/asm/asm/srcs/asm-3.1-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/asm/asm/jars/asm-3.1.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/log4j/log4j/srcs/log4j-1.2.17-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/log4j/log4j/docs/log4j-1.2.17-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/log4j/log4j/docs/log4j-1.2.17-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/net.java.dev.jets3t/jets3t/srcs/jets3t-0.9.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/net.java.dev.jets3t/jets3t/jars/jets3t-0.9.0.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.jamesmurty.utils/java-xmlbuilder/srcs/java-xmlbuilder-0.4-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.jamesmurty.utils/java-xmlbuilder/jars/java-xmlbuilder-0.4.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/net.java.dev.jets3t/jets3t/srcs/jets3t-0.9.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/net.java.dev.jets3t/jets3t/jars/jets3t-0.9.0.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.jamesmurty.utils/java-xmlbuilder/srcs/java-xmlbuilder-0.4-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.jamesmurty.utils/java-xmlbuilder/jars/java-xmlbuilder-0.4.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.jamesmurty.utils/java-xmlbuilder/docs/java-xmlbuilder-0.4-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.jamesmurty.utils/java-xmlbuilder/docs/java-xmlbuilder-0.4-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.6-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.6-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/commons-lang/commons-lang/docs/commons-lang-2.6-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/commons-lang/commons-lang/docs/commons-lang-2.6-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-configuration/commons-configuration/srcs/commons-configuration-1.6-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-digester/commons-digester/srcs/commons-digester-1.8-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.8.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-beanutils/commons-beanutils/srcs/commons-beanutils-1.7.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-configuration/commons-configuration/srcs/commons-configuration-1.6-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-digester/commons-digester/srcs/commons-digester-1.8-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.8.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-beanutils/commons-beanutils/srcs/commons-beanutils-1.7.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/commons-beanutils/commons-beanutils/docs/commons-beanutils-1.7.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/commons-beanutils/commons-beanutils/docs/commons-beanutils-1.7.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="lib" path="/Users/mia/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.7.4-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.avro/avro/jars/avro-1.7.4.jar">
+  <classpathentry kind="lib" path="/home/cloudera/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.7.4-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.avro/avro/jars/avro-1.7.4.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.avro/avro/docs/avro-1.7.4-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.avro/avro/docs/avro-1.7.4-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.3-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.3.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.3-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.3.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.thoughtworks.paranamer/paranamer/docs/paranamer-2.3-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.thoughtworks.paranamer/paranamer/docs/paranamer-2.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.0.4.1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.0.4.1.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.0.4.1-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.0.4.1.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.xerial.snappy/snappy-java/docs/snappy-java-1.0.4.1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.xerial.snappy/snappy-java/docs/snappy-java-1.0.4.1-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.4.1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.4.1-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.commons/commons-compress/docs/commons-compress-1.4.1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.commons/commons-compress/docs/commons-compress-1.4.1-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.tukaani/xz/srcs/xz-1.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.tukaani/xz/jars/xz-1.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.tukaani/xz/srcs/xz-1.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.tukaani/xz/jars/xz-1.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.tukaani/xz/docs/xz-1.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.tukaani/xz/docs/xz-1.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.5.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.5.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.google.protobuf/protobuf-java/docs/protobuf-java-2.5.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.google.protobuf/protobuf-java/docs/protobuf-java-2.5.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.2.4-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.2.4.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.2.4-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.2.4.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.google.code.gson/gson/docs/gson-2.2.4-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.google.code.gson/gson/docs/gson-2.2.4-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.hadoop/hadoop-auth/srcs/hadoop-auth-2.6.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.hadoop/hadoop-auth/jars/hadoop-auth-2.6.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.hadoop/hadoop-auth/srcs/hadoop-auth-2.6.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.hadoop/hadoop-auth/jars/hadoop-auth-2.6.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.hadoop/hadoop-auth/docs/hadoop-auth-2.6.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.hadoop/hadoop-auth/docs/hadoop-auth-2.6.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.directory.server/apacheds-kerberos-codec/srcs/apacheds-kerberos-codec-2.0.0-M15-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.directory.server/apacheds-kerberos-codec/bundles/apacheds-kerberos-codec-2.0.0-M15.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.directory.server/apacheds-kerberos-codec/srcs/apacheds-kerberos-codec-2.0.0-M15-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.directory.server/apacheds-kerberos-codec/bundles/apacheds-kerberos-codec-2.0.0-M15.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.directory.server/apacheds-kerberos-codec/docs/apacheds-kerberos-codec-2.0.0-M15-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.directory.server/apacheds-kerberos-codec/docs/apacheds-kerberos-codec-2.0.0-M15-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.directory.server/apacheds-i18n/srcs/apacheds-i18n-2.0.0-M15-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.directory.server/apacheds-i18n/bundles/apacheds-i18n-2.0.0-M15.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.directory.server/apacheds-i18n/srcs/apacheds-i18n-2.0.0-M15-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.directory.server/apacheds-i18n/bundles/apacheds-i18n-2.0.0-M15.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.directory.server/apacheds-i18n/docs/apacheds-i18n-2.0.0-M15-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.directory.server/apacheds-i18n/docs/apacheds-i18n-2.0.0-M15-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.directory.api/api-asn1-api/srcs/api-asn1-api-1.0.0-M20-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.directory.api/api-asn1-api/bundles/api-asn1-api-1.0.0-M20.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.directory.api/api-asn1-api/srcs/api-asn1-api-1.0.0-M20-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.directory.api/api-asn1-api/bundles/api-asn1-api-1.0.0-M20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.directory.api/api-asn1-api/docs/api-asn1-api-1.0.0-M20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.directory.api/api-asn1-api/docs/api-asn1-api-1.0.0-M20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.directory.api/api-util/srcs/api-util-1.0.0-M20-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.directory.api/api-util/bundles/api-util-1.0.0-M20.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.directory.api/api-util/srcs/api-util-1.0.0-M20-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.directory.api/api-util/bundles/api-util-1.0.0-M20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.directory.api/api-util/docs/api-util-1.0.0-M20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.directory.api/api-util/docs/api-util-1.0.0-M20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.curator/curator-framework/srcs/curator-framework-2.6.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.curator/curator-framework/bundles/curator-framework-2.6.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.curator/curator-framework/srcs/curator-framework-2.6.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.curator/curator-framework/bundles/curator-framework-2.6.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.curator/curator-framework/docs/curator-framework-2.6.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.curator/curator-framework/docs/curator-framework-2.6.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.curator/curator-client/srcs/curator-client-2.6.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.curator/curator-client/bundles/curator-client-2.6.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.curator/curator-client/srcs/curator-client-2.6.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.curator/curator-client/bundles/curator-client-2.6.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.curator/curator-client/docs/curator-client-2.6.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.curator/curator-client/docs/curator-client-2.6.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/jline/jline/srcs/jline-0.9.94-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/jline/jline/jars/jline-0.9.94.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.jcraft/jsch/srcs/jsch-0.1.42-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.42.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.curator/curator-recipes/srcs/curator-recipes-2.6.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.curator/curator-recipes/bundles/curator-recipes-2.6.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.zookeeper/zookeeper/srcs/zookeeper-3.4.6-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.4.6.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.curator/curator-recipes/docs/curator-recipes-2.6.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.zookeeper/zookeeper/docs/zookeeper-3.4.6-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.htrace/htrace-core/srcs/htrace-core-3.0.4-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.htrace/htrace-core/jars/htrace-core-3.0.4.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/jline/jline/srcs/jline-0.9.94-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/jline/jline/jars/jline-0.9.94.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/io.netty/netty/srcs/netty-3.7.0.Final-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/io.netty/netty/bundles/netty-3.7.0.Final.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.htrace/htrace-core/docs/htrace-core-3.0.4-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/io.netty/netty/docs/netty-3.7.0.Final-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="lib" path="/Users/mia/.ivy2/cache/tomcat/jasper-compiler/jars/jasper-compiler-5.5.23.jar"/>
-  <classpathentry kind="lib" path="/Users/mia/.ivy2/cache/tomcat/jasper-runtime/jars/jasper-runtime-5.5.23.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-el/commons-el/srcs/commons-el-1.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-el/commons-el/jars/commons-el-1.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.jcraft/jsch/srcs/jsch-0.1.42-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.42.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.curator/curator-recipes/srcs/curator-recipes-2.6.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.curator/curator-recipes/bundles/curator-recipes-2.6.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/commons-el/commons-el/docs/commons-el-1.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.curator/curator-recipes/docs/curator-recipes-2.6.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/javax.servlet.jsp/jsp-api/srcs/jsp-api-2.1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/javax.servlet.jsp/jsp-api/jars/jsp-api-2.1.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.slf4j/slf4j-log4j12/srcs/slf4j-log4j12-1.7.5-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.5.jar">
+  <classpathentry kind="lib" path="/home/cloudera/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.htrace/htrace-core/srcs/htrace-core-3.0.4-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.htrace/htrace-core/jars/htrace-core-3.0.4.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.slf4j/slf4j-log4j12/docs/slf4j-log4j12-1.7.5-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.htrace/htrace-core/docs/htrace-core-3.0.4-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.hadoop/hadoop-mapred/srcs/hadoop-mapred-0.22.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.hadoop/hadoop-mapred/jars/hadoop-mapred-0.22.0.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.hbase/hbase-common/srcs/hbase-common-2.0.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.hbase/hbase-common/jars/hbase-common-2.0.0.jar">
+  <classpathentry kind="lib" path="/home/cloudera/.ivy2/cache/tomcat/jasper-compiler/jars/jasper-compiler-5.5.23.jar"/>
+  <classpathentry kind="lib" path="/home/cloudera/.ivy2/cache/tomcat/jasper-runtime/jars/jasper-runtime-5.5.23.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-el/commons-el/srcs/commons-el-1.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-el/commons-el/jars/commons-el-1.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.hbase/hbase-common/docs/hbase-common-2.0.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/commons-el/commons-el/docs/commons-el-1.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-miscellaneous/srcs/hbase-shaded-miscellaneous-2.1.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-miscellaneous/jars/hbase-shaded-miscellaneous-2.1.0.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.6-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.6.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/javax.servlet.jsp/jsp-api/srcs/jsp-api-2.1-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/javax.servlet.jsp/jsp-api/jars/jsp-api-2.1.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.slf4j/slf4j-log4j12/srcs/slf4j-log4j12-1.7.5-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.5.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.commons/commons-lang3/docs/commons-lang3-3.6-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.slf4j/slf4j-log4j12/docs/slf4j-log4j12-1.7.5-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.5-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.5.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.hadoop/hadoop-mapred/srcs/hadoop-mapred-0.22.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.hadoop/hadoop-mapred/jars/hadoop-mapred-0.22.0.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.hbase/hbase-common/srcs/hbase-common-1.2.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.hbase/hbase-common/jars/hbase-common-1.2.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/commons-io/commons-io/docs/commons-io-2.5-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.hbase/hbase-common/docs/hbase-common-1.2.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.htrace/htrace-core4/srcs/htrace-core4-4.2.0-incubating-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.htrace/htrace-core4/jars/htrace-core4-4.2.0-incubating.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.hbase/hbase-protocol/srcs/hbase-protocol-1.2.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.hbase/hbase-protocol/jars/hbase-protocol-1.2.0.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.hbase/hbase-annotations/srcs/hbase-annotations-1.2.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.hbase/hbase-annotations/jars/hbase-annotations-1.2.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.htrace/htrace-core4/docs/htrace-core4-4.2.0-incubating-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.hbase/hbase-annotations/docs/hbase-annotations-1.2.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.commons/commons-crypto/srcs/commons-crypto-1.0.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.commons/commons-crypto/jars/commons-crypto-1.0.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/srcs/findbugs-annotations-1.3.9-1-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/jars/findbugs-annotations-1.3.9-1.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.commons/commons-crypto/docs/commons-crypto-1.0.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/docs/findbugs-annotations-1.3.9-1-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/junit/junit/srcs/junit-4.12-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/junit/junit/jars/junit-4.12.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/junit/junit/srcs/junit-4.12-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/junit/junit/jars/junit-4.12.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/junit/junit/docs/junit-4.12-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/junit/junit/docs/junit-4.12-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.hamcrest/hamcrest-core/docs/hamcrest-core-1.3-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.hamcrest/hamcrest-core/docs/hamcrest-core-1.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/srcs/findbugs-annotations-1.3.9-1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/jars/findbugs-annotations-1.3.9-1.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.2-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.2.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/docs/findbugs-annotations-1.3.9-1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/commons-collections/commons-collections/docs/commons-collections-3.2.2-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.9.2-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.9.2.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.htrace/htrace-core/srcs/htrace-core-3.1.0-incubating-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.htrace/htrace-core/jars/htrace-core-3.1.0-incubating.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/docs/jackson-databind-2.9.2-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.htrace/htrace-core/docs/htrace-core-3.1.0-incubating-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.9.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.apache.hbase/hbase-client/srcs/hbase-client-1.2.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.hbase/hbase-client/jars/hbase-client-1.2.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/docs/jackson-annotations-2.9.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.hbase/hbase-client/docs/hbase-client-1.2.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.9.2-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.2.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/io.netty/netty-all/srcs/netty-all-4.0.23.Final-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/io.netty/netty-all/jars/netty-all-4.0.23.Final.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/docs/jackson-core-2.9.2-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/io.netty/netty-all/docs/netty-all-4.0.23.Final-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.yetus/audience-annotations/srcs/audience-annotations-0.5.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.yetus/audience-annotations/jars/audience-annotations-0.5.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.jruby.jcodings/jcodings/srcs/jcodings-1.0.8-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.jruby.jcodings/jcodings/jars/jcodings-1.0.8.jar"/>
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/org.jruby.joni/joni/srcs/joni-2.1.2-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/org.jruby.joni/joni/jars/joni-2.1.2.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.yetus/audience-annotations/docs/audience-annotations-0.5.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.jruby.joni/joni/docs/joni-2.1.2-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.hbase/hbase-client/srcs/hbase-client-2.0.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.hbase/hbase-client/jars/hbase-client-2.0.0.jar">
+  <classpathentry sourcepath="/home/cloudera/.ivy2/cache/com.yammer.metrics/metrics-core/srcs/metrics-core-2.2.0-sources.jar" kind="lib" path="/home/cloudera/.ivy2/cache/com.yammer.metrics/metrics-core/jars/metrics-core-2.2.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.hbase/hbase-client/docs/hbase-client-2.0.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-protobuf/srcs/hbase-shaded-protobuf-2.1.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-protobuf/jars/hbase-shaded-protobuf-2.1.0.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.hbase/hbase-protocol-shaded/srcs/hbase-protocol-shaded-2.0.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.hbase/hbase-protocol-shaded/jars/hbase-protocol-shaded-2.0.0.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.hbase/hbase-protocol/srcs/hbase-protocol-2.0.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.hbase/hbase-protocol/jars/hbase-protocol-2.0.0.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-netty/srcs/hbase-shaded-netty-2.1.0-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-netty/jars/hbase-shaded-netty-2.1.0.jar"/>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.apache.zookeeper/zookeeper/srcs/zookeeper-3.4.10-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.4.10.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.apache.zookeeper/zookeeper/docs/zookeeper-3.4.10-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/io.netty/netty/srcs/netty-3.10.5.Final-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/io.netty/netty/bundles/netty-3.10.5.Final.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/io.netty/netty/docs/netty-3.10.5.Final-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.jruby.jcodings/jcodings/srcs/jcodings-1.0.18-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.jruby.jcodings/jcodings/jars/jcodings-1.0.18.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.jruby.jcodings/jcodings/docs/jcodings-1.0.18-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/org.jruby.joni/joni/srcs/joni-2.1.11-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/org.jruby.joni/joni/jars/joni-2.1.11.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/org.jruby.joni/joni/docs/joni-2.1.11-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/Users/mia/.ivy2/cache/io.dropwizard.metrics/metrics-core/srcs/metrics-core-3.2.1-sources.jar" kind="lib" path="/Users/mia/.ivy2/cache/io.dropwizard.metrics/metrics-core/bundles/metrics-core-3.2.1.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/Users/mia/.ivy2/cache/io.dropwizard.metrics/metrics-core/docs/metrics-core-3.2.1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/com.yammer.metrics/metrics-core/docs/metrics-core-2.2.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

@@ -1,2 +1,4 @@
+.cache-main
 .idea/
 target/
+/bin/
