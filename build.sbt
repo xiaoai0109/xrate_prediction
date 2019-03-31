@@ -6,7 +6,7 @@ version := "0.0.3"
 
 scalaVersion := "2.12.4"
 
-EclipseKeys.createSrc := EclipseCreateSrc.Default + EclipseCreateSrc.Resource
+//EclipseKeys.createSrc := EclipseCreateSrc.Default + EclipseCreateSrc.Resource
 
 // https://mvnrepository.com/artifact/org.apache.httpcomponents/fluent-hc
 libraryDependencies += "org.apache.httpcomponents" % "fluent-hc" % "4.5.5"
@@ -44,3 +44,19 @@ resolvers ++= Seq(
 // also check the local Maven repository ~/.m2
 Resolver.mavenLocal
 )
+
+assemblyMergeStrategy in assembly := {
+  case PathList("org", "slf4j", xs @ _*)         => MergeStrategy.first
+  case PathList("commons-beanutils", "commons-beanutils", xs @ _*)         => MergeStrategy.first
+  case PathList("javax", "servlet", xs @ _*) => MergeStrategy.last
+  case PathList("javax", "activation", xs @ _*) => MergeStrategy.last
+  case PathList("org", "apache", xs @ _*) => MergeStrategy.last
+  case PathList("com", "google", xs @ _*) => MergeStrategy.first
+  case PathList("com", "yammer", xs @ _*) => MergeStrategy.last
+  case "about.html" => MergeStrategy.rename
+  case "plugin.properties" => MergeStrategy.last
+  case "log4j.properties" => MergeStrategy.last
+  case x =>
+    val oldStrategy = (assemblyMergeStrategy in assembly).value
+    oldStrategy(x)
+}
